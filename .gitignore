@@ -4,50 +4,67 @@
 # Deskripsi: Ini adalah gitignore standar untuk proyek Python
 # =========================================
 
-# Ignore environment files
-.env
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
+# C extensions
+*.so
+
 # Distribution / packaging
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Virtualenv
-venv/
-ENV/
-env/
-env.bak/
-venv.bak/
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 
-# Pyenv
+# pyenv
 .python-version
 
-# Editor files (created by Bactiar291)
+# dotenv
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
 .vscode/
+*.code-workspace
+
+# Virtualenv
+.virtualenv/
+venv/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# PyCharm
 .idea/
-*.swp
-*~
+
+# Local env files
+*.env
+
+# Requirements
+requirements.txt
