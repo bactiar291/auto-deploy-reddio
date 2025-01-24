@@ -1,0 +1,53 @@
+# =========================================
+# Gitignore ini dibuat oleh: Anam Bactiar
+# GitHub: https://github.com/bactiar291
+# Deskripsi: Ini adalah gitignore standar untuk proyek Python
+# =========================================
+
+# Ignore environment files
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Pyenv
+.python-version
+
+# Editor files (created by Bactiar291)
+.vscode/
+.idea/
+*.swp
+*~
